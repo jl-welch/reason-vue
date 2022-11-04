@@ -1,0 +1,74 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey-100: #efefef;
+  --grey-200: #dedfde;
+  --grey-300: #cecdce;
+  --grey-400: #bdbcbd;
+  --red: #be3249;
+  --green: #478175;
+  --blue: #4a7c8f;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: .4px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
