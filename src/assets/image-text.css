@@ -38,6 +38,6 @@
 
   .image-text__image {
     display: block;
-    max-width: 50%;
+    width: 50%;
   }
 }
