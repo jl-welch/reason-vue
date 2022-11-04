@@ -57,7 +57,7 @@
 		<div class="header__branding">
 			<div class="container">
 				<h1 class="header__title title">
-					<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+					<a href="#" rel="home">
 						Get online week 2021
 					</a>
 				</h1>
